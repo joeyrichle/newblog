@@ -1,3 +1,22 @@
 /*
     You can add your own custom styles here.
 */
+
+/* Adjust the three-column layout */
+@media (min-width: 1280px) {
+    .main-container {
+        /* sidebar-left | main-content | sidebar-right (TOC) */
+        grid-template-columns: 280px 1fr 240px !important; 
+        gap: 2rem;
+    }
+}
+
+/* Make the TOC (right sidebar) more compact */
+.right-sidebar {
+    width: 240px !important;
+}
+
+/* Optional: Make the article container wider */
+.article-page .main-article {
+    max-width: 900px; /* Increase this to make text take up more space */
+}

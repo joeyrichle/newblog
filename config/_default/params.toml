@@ -10,8 +10,8 @@ favicon        = "img/favicon.png"
 SortBy              = "default"
 
 [footer]
-    since      = 2020
-    customText = ""
+    since      = 2026
+    customText = "Powered by my ADHD and ASD"
 
 [dateFormat]
     published   = ":date_full"
@@ -19,12 +19,13 @@ SortBy              = "default"
 
 [sidebar]
     emoji    = "🍥"
-    subtitle = "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    subtitle = "随性游走."
     avatar   = "img/avatar.png"
 
 [article]
     headingAnchor = false
     math          = false
+    toc           = true
     readingTime   = true
 
     [article.license]

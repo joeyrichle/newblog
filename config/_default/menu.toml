@@ -8,17 +8,27 @@
 #newtab = true
 
 [[social]]
-    identifier = "github"
-    name       = "GitHub"
-    url        = "https://github.com/CaiJimmy/hugo-theme-stack"
+    identifier = "mastodon"
+    name       = "Mastodon"
+    url        = "https://douchi.space/@jojoriya"
 
     [social.params]
-        icon = "brand-github"
+        icon = "brand-mastodon"
 
 [[social]]
-    identifier = "twitter"
-    name       = "Twitter"
-    url        = "https://twitter.com"
+    identifier = "instagram"
+    name       = "Instagram"
+    url        = "https://www.instagram.com/jojoriya/"
 
     [social.params]
-        icon = "brand-twitter"
+        icon = "brand-instagram"
+
+
+[[main]]
+    identifier = "about"
+    name       = "About"
+    url        = "/about/"
+    
+    [main.params]
+        icon = "user"
+
