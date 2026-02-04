@@ -1,5 +1,5 @@
 ---
-title: 关于
+title: about
 description: 关于本站及其作者的一切。
 date: 2026-01-26
 lastmod: 2026-01-26
