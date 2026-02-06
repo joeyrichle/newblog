@@ -7,13 +7,15 @@ image: cover.jpg
 categories:
     - Example Category
 tags:
-    - Example Tag
+    - test
+    - 建站
+    - 瞎倒腾
 weight: 1       # You can add weight to some posts to override the default sorting (date descending)
 ---
 
 Welcome to my new site. 
 
-This is a text post.
+This is a test post.
 
 Want a site like this? Check out [hugo-theme-stack-stater](https://github.com/CaiJimmy/hugo-theme-stack-starter)
 
