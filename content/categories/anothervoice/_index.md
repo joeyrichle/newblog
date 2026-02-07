@@ -1,6 +1,6 @@
 ---
 title: 唱唱反调
-description: 
+description: 说点不一样的（偏激）
 image:
 
 # Badge style
