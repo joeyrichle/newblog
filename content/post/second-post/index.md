@@ -1,9 +1,9 @@
 ---
 title: Second post test
 description: This is a fake post!
-slug: second post
+slug: second-post
 date: 2026-02-06 18:35:00+0000
-image: cover.jpg
+image: 
 categories:
     - anothervoice
     - travel
@@ -11,7 +11,7 @@ tags:
     - test
     - 建站
     - 瞎倒腾
-weight: 1       # You can add weight to some posts to override the default sorting (date descending)
+weight: 2      # You can add weight to some posts to override the default sorting (date descending)
 ---
 
 

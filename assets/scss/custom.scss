@@ -1,25 +1,23 @@
 /*
     You can add your own custom styles here.
 */
-
-/* Adjust the three-column layout */
-@media  {
-    .main-container {
-        /* sidebar-left | Middle: flexible | sidebar-right (TOC) */
-        grid-template-columns: 320px 1fr 260px !important; 
-        /* [Part A] [Part B] [Part C] */
-        gap: 1.5rem;/* The space between the columns */
+//友情链接双栏
+@media (min-width: 1024px) {
+    .article-list--compact.links {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        background: none;
+        box-shadow: none;
+        
+        article {
+            background: var(--card-background);
+            border: none;
+            box-shadow: var(--shadow-l2);
+            margin-bottom: 8px;
+            border-radius: 10px;
+            &:nth-child(odd) {
+                margin-right: 8px;
+            }
+        }
     }
 }
-
-/* Make the TOC (right sidebar) more compact */
-.right-sidebar {
-    width: 240px !important;
-}
-
-/* Make the tag round corner */
-:root {
-    --tag-border-radius: 24px; // Change from 4px to make it round corner
-    --category-border-radius: 4px; // Add category border setting
-}
-
