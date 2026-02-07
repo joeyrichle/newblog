@@ -5,7 +5,7 @@ slug: hello-world
 date: 2026-02-06 00:00:00+0000
 image: cover.jpg
 categories:
-    - 边读边写
+    - reading
     - anothervoice
     - travel
 tags:

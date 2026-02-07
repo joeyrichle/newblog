@@ -4,9 +4,7 @@
 {{- if $query -}}
     {{- $archivesPage := index $query 0 -}}
     <section class="widget archives">
-        <div class="widget-icon">
-            {{ partial "helper/icon" "infinity" }}
-        </div>
+        
         <h2 class="widget-title section-title">{{ T "widget.archives.title" }}</h2>
 
         {{ $pages := partial "helper/pages.html" $context.Site.Home }}
