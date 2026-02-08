@@ -30,7 +30,7 @@ SortBy              = "default"
 
     [article.license]
         enabled = true
-        default = "禁止转载。转发需注明文章链接。"
+        default = "版权所有，禁止转载。转发需注明文章链接。"
 
 [widgets]
     homepage = [
