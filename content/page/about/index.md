@@ -13,11 +13,11 @@ menu:
 
 ## 这个站是写什么的？
 
-暂时应该没什么人来看，所以先浑水摸一下鱼
+主要是安放和梳理一下自己的思绪，也会记录下生活，写写游记，发一些极其极端的见解，吐吐积压的情绪和记忆。
 
 ## 关于作者
 
-你好，这个人很懒，拖延狂魔，也许说不定哪天会来更新这个页面。
+你好，这个人很懒，拖延症狂魔，也许说不定哪天会来更新这个页面。
 
 ### 我的旅程
 
@@ -31,14 +31,13 @@ menu:
 
 ## 联系我
 
-如果你有任何问题或只是想打个招呼，请随时联系我！
+欢迎你在评论区留言和订阅我的其他平台！
 
-- **Twitter**: [@example](https://twitter.com/example)
-- **GitHub**: [example](https://github.com/example)
+- **Flickr**: [@Joey Lee](https://www.flickr.com/cameraroll)
 
 ---
 
-> "Logic will get you from A to B. Imagination will take you everywhere."  
-> — *Albert Einstein*
+> "人只活一次，随心所欲累了原地躺下。"
+> "这一辈子随便乱活，希望我们都能得到安宁！"  
 
 ---
