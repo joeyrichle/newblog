@@ -1,5 +1,5 @@
 # Change baseurl before deploy
-baseurl      = "https://joeyrichle.github.io/newblog/"
+baseurl      = "https://joeyplaneta.com/"
 languageCode = "en-us"
 title        = "Joey's Planeta"
 

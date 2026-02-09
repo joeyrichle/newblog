@@ -17,7 +17,7 @@ menu:
 
 ## 关于作者
 
-你好，这个人很懒，拖延症狂魔，也许说不定哪天会来更新这个页面。
+你好，这个人很懒，会有很多牢骚，很多非常主观极端的观点，不喜欢不要看哈。
 
 ### 我的旅程
 
@@ -33,7 +33,7 @@ menu:
 
 欢迎你在评论区留言和订阅我的其他平台！
 
-- **Flickr**: [@Joey Lee](https://www.flickr.com/cameraroll)
+- **Flickr**: [@Joey Lee](https://www.flickr.com/photos/204105357@N04/albums)
 
 ---
 
