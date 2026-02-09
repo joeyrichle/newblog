@@ -1,6 +1,6 @@
 ---
 title: 说走就走
-description: 计划是什么，想去立刻出发
+description: 不等不拖，想去就立刻出发
 image: daniel.jpeg
 
 # Badge style
