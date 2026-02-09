@@ -2,7 +2,7 @@
 title: 跟我弟的一点对话
 description: 仿佛看到另一个自己一般苦涩
 slug: conversations-with-my-brother
-date: 2024-9-16
+date: 2024-09-16
 categories:
     
 tags:

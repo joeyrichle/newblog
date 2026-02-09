@@ -2,7 +2,7 @@
 title: 我爸妈也是老师
 description: 有些不幸真的很相似
 slug: my-parents-are-teachers
-date: 2024-9-17
+date: 2024-09-17
 categories:
     
 tags:
