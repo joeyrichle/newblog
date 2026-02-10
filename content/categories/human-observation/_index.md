@@ -1,7 +1,7 @@
 ---
 title: 人间观察
 description: 你在桥上看风景，看风景人在楼上看你
-image:
+image: 12.jpg
 
 # Badge style
 style:

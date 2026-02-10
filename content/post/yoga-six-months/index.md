@@ -31,7 +31,7 @@ tags:
 
 她的视频里没有广告，所以可以一口气专心做下来。也有像30天beginner视频，30天improver这种适合不同阶段人选择的跟练视频，也会有专门练核心，练臀腿，练上肢，或是运动后放松拉伸的视频，都是免费。
 
-几个月下来明显感觉自己整体水平和身体力量确实有进步。本来我上肢力量非常薄弱，最开始从plank变chaturanga根本做不到，忘了哪天忽然可以撑住自己往下压了。这真是让我非常惊讶。一些单侧手支撑的动作，还有像是战士三这种单脚站立的动作，刚开始也完全做不到，现在渐渐也可以做了。唯一还不行的是倒立，因为手腕有伤，和腰椎间盘突出，能做多少是多少吧，这个就不强求了。
+几个月下来明显感觉自己整体水平和身体力量确实有进步。本来我上肢力量非常薄弱，最开始从plank变chaturanga根本做不到，忘了哪天忽然可以撑住自己往下压了。这真是让我非常惊讶。一些单侧手支撑的动作，还有像是战士三这种单脚站立的动作，刚开始也完全做不到，现在渐渐也可以了。唯一还不行的是倒立，因为手腕有伤，和腰椎间盘突出，能做多少是多少吧，这个就不强求了。
 
 还记得去年10月中旬开始那段时间，天气凉快下来，早上起来打开阳台门，看着外面乌蓝的天，泛着一点朝霞，穿堂风吹着，一边做瑜伽，一边看着天空渐渐变成粉红，再变白，阳光亮得刺眼，世界逐渐醒过来。那时候感觉非常沉稳，我，专心感受着自己的呼吸，感受着自己的身体，专注于自己的时间。活在自己的世界里，为自己而活，感觉特别好。
 
@@ -39,4 +39,4 @@ tags:
 
 好多年前在北京一个私房培训机构实习，合资的几个老板都是女性，时常聊些吃穿生活话题，有次一个老板说瑜伽只会让你变成一个柔软的胖子。好多年过去了，她这句话记得特别清楚。这话也不能说错，然而瑜伽的目的从来都不是减脂，而是让人感受自己的身体和呼吸，是一种正念和冥想，是一种通过身体对心灵的关照。
 
-我特别喜欢Charlie在一个视频的最后说的一段话，It only takes a reminder to breathe, a moment to be still, and just like that, something can be settles and softens. Make space for imperfection. The harsh voice of judgment drops to a whisper and I remember again that life isn't a relay race, that we all cross the finish line, that waking up to life is what we were born for as many times as I forget, catch myself charging forwards without even knowing where I'm gong, that many times I can make the choice to stop, to breathe, and be, and walk slowly into mystery.
+特别喜欢Charlie在一个视频的最后说的一段话，It only takes a reminder to breathe, a moment to be still, and just like that, something can be settles and softens. Make space for imperfection. The harsh voice of judgment drops to a whisper and I remember again that life isn't a relay race, that we all cross the finish line, that waking up to life is what we were born for as many times as I forget, catch myself charging forwards without even knowing where I'm gong, that many times I can make the choice to stop, to breathe, and be, and walk slowly into mystery.
