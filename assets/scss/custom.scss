@@ -35,3 +35,11 @@
       margin-bottom: 0;
     }
   }
+
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@700&display=swap');
+.article-details .article-title {
+    font-family: "Noto Serif SC", "Noto Serif CJK SC", serif;
+    font-weight: 700;
+    line-height: 1.5;
+}
