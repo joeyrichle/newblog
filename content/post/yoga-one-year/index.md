@@ -4,14 +4,14 @@ description: 零两个月
 slug: yoga-one-year
 date: 2025-11-25
 categories:
-
+image: 69.jpeg
 tags:
     - essay
     - yoga
     - self-care
 ---
 
-之前写了[瑜伽六个月](/yoga-six-months)，现在一转眼已经一年零两个月了！（至少）
+之前写了[瑜伽六个月]({{< relref "yoga-six-months/#heading" >}})，现在一转眼已经一年零两个月了！（至少）
 
 说说这后半年的情况。
 
@@ -26,8 +26,7 @@ tags:
 于是先从strong yoga跟起，20天下来，明显感觉自己的身体比以前有力量许多，以前做不到的姿势也能做到了，之前能做到的姿势更stable了——明显地感觉到自己在learning，身体在变好，特别开心。那种结束后浑身微微出汗的感觉特别好。有时练完腿，第二天会屁股或两腿酸痛——谁说瑜伽只练柔韧，照样练力量！
 
 
-![](1.jpeg)  
-![](2.jpeg)
+![](1.jpeg)  ![](2.jpeg)
 
 
 记得有天早晨照镜子，发现身体线条居然变好看了！

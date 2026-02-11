@@ -3,6 +3,7 @@ title: Hugo stack博客建站记录
 description: 用Hugo-stack主题在GitHub部署blog并配置自定义域名
 slug: deploy-hugo-to-github
 date: 2026-02-10
+lastmod: 2026-02-11
 image:
 categories:
 
@@ -11,7 +12,8 @@ tags:
 ---
 
 
-这篇记录一下这个网站的搭建过程。~无他，唯copypaste尔~
+这篇记录一下这个网站的搭建过程。~无他，唯copypaste尔。~
+
 之后可能会再写一篇建站前的各种试错阶段，会是碎碎念。
 
 首先当然是注册Hugo和GitHub，此外还有一些隐性学习成本，我也还在摸索，就不多写了，有意的就多搜教程和视频看吧。
@@ -109,7 +111,7 @@ assets/scss/partials/footer.scss
 
 ### 自己摸索和Gemini做的修改和一些tips：
 
-- 删除右边侧栏widget里的硕大icon
+#### 删除右边侧栏widget里的硕大icon
 在layouts/_partials/widget里找到`archives.html`，`categories.html`，`tag-cloud.html`，`toc.html`这几个文件，删除里面两个`<div>`之间的代码，icon_name是对应的文件名。
 
 ```html
@@ -131,7 +133,7 @@ assets/scss/partials/footer.scss
         }
 }
 ```
-- 保留默认语言为英语，开启CJKL确保中文被计数
+#### 保留默认语言为英语，开启CJKL确保中文被计数
 我想保留网站的默认语言为英语，但用中文写作。为了让wordcount和阅读时间正确显示，在congfig.toml里修改
 `hasCJKLanguage = true`
 
@@ -166,7 +168,7 @@ spaceship是在Launchpad，找到Advanced DNS，按照GitHub docs的[说明](htt
 
 还有一些想改的地方，以后慢慢弄。
 - 每篇文章后加emoji表情按钮
-- rss和邮箱订阅
+- 邮箱订阅
 - Twikoo添加动态表情包
 - 热力图也想加
 

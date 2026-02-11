@@ -22,3 +22,11 @@
 
     [social.params]
         icon = "brand-instagram"
+
+[[social]]
+    identifier = "RSS"
+    name       = "RSS"
+    url        = "https://joeyplaneta.com/index.xml"
+
+    [social.params]
+        icon = "rss"

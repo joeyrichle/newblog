@@ -14,8 +14,8 @@ SortBy              = "default"
     customText = "Powered by my ADHD & ASD"
 
 [dateFormat]
-    published   = ":date_full"
-    lastUpdated = ":date_full"
+    published   = "Mon, 02 Jan 2006"
+    lastUpdated = "Mon, 02 Jan 2006"
 
 [sidebar]
     emoji    = "🪐"
@@ -30,7 +30,7 @@ SortBy              = "default"
 
     [article.license]
         enabled = true
-        default = "版权所有，禁止转载。转发需注明文章链接。"
+        default = "版权所有，禁止转载。转发引用需注明文章链接。"
 
 [widgets]
     homepage = [
