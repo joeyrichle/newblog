@@ -21,19 +21,11 @@
         }
     }
 }
-//为代码块顶部添加 macos 样式
+//修改代码块样式
 .article-content {
-    .highlight:before {
-      content: "";
-      display: block;
-      background: url(/img/code-header.svg);
-      height: 25px;
-      width: 100%;
-      background-size: 52px;
-      background-repeat: no-repeat;
-      margin-top: -10px;
-      margin-bottom: 0;
-    }
+    .highlight {
+        padding-top: 30px; /* Adds space inside the top of the code box */
+      }
   }
 
 //更改标题字体为思源宋体
