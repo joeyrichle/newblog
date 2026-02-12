@@ -3,6 +3,7 @@ title: 瑜伽六个月
 description: 谁能想到呢
 slug: yoga-six-months
 date: 2025-04-12
+image: 69.jpeg
 categories:
     
 tags:

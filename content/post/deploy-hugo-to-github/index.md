@@ -4,7 +4,7 @@ description: 用Hugo-stack主题在GitHub部署blog并配置自定义域名
 slug: deploy-hugo-to-github
 date: 2026-02-10
 lastmod: 2026-02-11
-image:
+image: 39.jpeg
 categories:
 
 tags:
@@ -44,11 +44,13 @@ modify大部分是参考友邻白石京的[建站装修相关文章](https://thi
 另外谷歌的passkey需要保持开启二次验证，我关了二次验证之后测试twikoo一直失败，于是又重开了。
  
 - 圆角标签 
-  （这里我只用了第一条code，看了下“分类”的效果我觉得也还可以所以没有做其他的改动）
+
+  这里我只用了第一条code，看了下“分类”的效果我觉得也还可以所以没有做其他的改动
 
 - 增加“博客已运行X天X小时X分种“字样
-  （这里我对字体和颜色没有特殊需求，所以风格样式只需要定义运行时间的部分：
-assets/scss/partials/footer.scss
+  
+  这里我对字体和颜色没有特殊需求，所以风格样式只定义运行时间的部分：
+`assets/scss/partials/footer.scss`
 ```scss
    .running-time {
         color: var(--card-text-color-secondary);
@@ -63,7 +65,8 @@ assets/scss/partials/footer.scss
 `assets/scss/partials/layout/list.scss`,这里我把数字改成了width: 200px;height: 120px;argin-right: 15px
 
 - 增加友链双栏
-友链我没有新建页面，而是直接把原有的content/content/page/links文件夹改成friends，只在assets/scss/custom.scss文件添加了双栏样式部分的代码。
+  
+  友链我没有新建页面，而是直接把原有的content/content/page/links文件夹改成friends，只在assets/scss/custom.scss文件添加了双栏样式部分的代码。
 
 ```scss
 //友情链接双栏
@@ -88,12 +91,14 @@ assets/scss/partials/footer.scss
 }
 ```
 
-- 在归档（博文页面）文章列表里显示文章副标题/简介
-这个重点写一下，无脑复制代码commit之后显示的页面是这样的
+- 在归档（博文）列表里显示副标题/简介*
+  
+  **这个重点写一下**，无脑复制代码commit之后显示的页面是这样的
 
 ![](1.png)
 
 搜了下是典型的redundant render（冗余渲染），简单说就是代码重复了。
+
 在layouts/_partials/article-list/compact.html里添加代码时，只需要添加这部分代码到article-title的 </h2>之后。
 
 ```html
@@ -111,7 +116,7 @@ assets/scss/partials/footer.scss
 
 ### 自己摸索和Gemini做的修改和一些tips：
 
-#### 删除右边侧栏widget里的硕大icon
+#### 删除右边侧栏widget里的icon
 在layouts/_partials/widget里找到`archives.html`，`categories.html`，`tag-cloud.html`，`toc.html`这几个文件，删除里面两个`<div>`之间的代码，icon_name是对应的文件名。
 
 ```html
@@ -121,6 +126,7 @@ assets/scss/partials/footer.scss
  ```
 
 因为删了icon，也就不需要定义icon样式。
+
 删除assets/scss/partials/widgets.scss中的这部分代码。
 **注意{}的范围**
 ```scss
@@ -134,7 +140,7 @@ assets/scss/partials/footer.scss
 }
 ```
 #### 保留默认语言为英语，开启CJKL确保中文被计数
-我想保留网站的默认语言为英语，但用中文写作。为了让wordcount和阅读时间正确显示，在congfig.toml里修改
+我想保留网站的默认语言为英语，但用中文写作。为了让wordcount和阅读时间正确显示，仅在congfig.toml里修改
 `hasCJKLanguage = true`
 
 ## 配置自定义域名（custom domain）
@@ -144,16 +150,16 @@ assets/scss/partials/footer.scss
 
 ### 买域名
 
-我直接去白石京提到的[spaceship](https://www.spaceship.com)买了域名，买的时候可以搜一下promo code，能省一点是一点。
-上面的视频里还提到另两个网站，[Namecheap](https://www.namecheap.com/domains/)[GoDaddy](https://jp.godaddy.com) 。
-可能不同地域价格会有浮动，建议可以比比价。
+我直接去白石京提到的[spaceship](https://www.spaceship.com)买了域名，买的时候搜一下promo code，能省一点是一点。
+
+上面的视频里还提到另两个网站，[Namecheap](https://www.namecheap.com/domains/)和[GoDaddy](https://jp.godaddy.com) 。
+可能不同地域价格会有有变，这里不做推荐，建议比比价。
 
 ### GitHub和DNS配置
 
 域名买好后，在repo/settings/pages的Custom domain里填入自己的域名。github会自动进行check。但这时check会显示失败，因为域名网站那边还没有设置将域名链接到GitHub。
 
 回到购买域名的网站，配置DNS。
-
 spaceship是在Launchpad，找到Advanced DNS，按照GitHub docs的[说明](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site#configuring-an-apex-domain)，添加4个A record和1个CNAME record。A record的Host处填入一个@即可。添加完保存后，等待链接成功，会需要一点时间。
 
 ![](3.png)
@@ -162,7 +168,7 @@ spaceship是在Launchpad，找到Advanced DNS，按照GitHub docs的[说明](htt
 
 ## 感谢
 
-最后，非常感谢Allison，白石京，椒盐豆豉，不然我这个拖延症狂魔不知何年何月才能建成这个网站。
+最后，非常感谢作者Jimmy，友邻Allison，白石京，椒盐豆豉，不然我这个拖延症狂魔不知何年何月才能建成这个网站。
 
 ## 还想改的地方
 
@@ -171,5 +177,7 @@ spaceship是在Launchpad，找到Advanced DNS，按照GitHub docs的[说明](htt
 - 邮箱订阅
 - Twikoo添加动态表情包
 - 热力图也想加
+- 随机入口
+- 微调字号字体
 
 前提都是写得多的话，哈哈。当然如果有人来评论~催促~会更有动力吧。

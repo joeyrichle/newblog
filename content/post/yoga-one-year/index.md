@@ -4,7 +4,7 @@ description: 零两个月
 slug: yoga-one-year
 date: 2025-11-25
 categories:
-image: 69.jpeg
+image: 1.jpeg
 tags:
     - essay
     - yoga

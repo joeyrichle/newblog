@@ -21,7 +21,7 @@
         }
     }
 }
-// 为代码块顶部添加 macos 样式
+//为代码块顶部添加 macos 样式
 .article-content {
     .highlight:before {
       content: "";
@@ -36,10 +36,16 @@
     }
   }
 
-
+//更改标题字体为思源宋体
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@700&display=swap');
 .article-details .article-title {
     font-family: "Noto Serif SC", "Noto Serif CJK SC", serif;
     font-weight: 700;
     line-height: 1.5;
+}
+//修复左侧边栏宽度
+@media (min-width: 768px) {
+    .sidebar.sticky {
+        width: 100%;
+    }
 }
