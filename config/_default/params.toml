@@ -30,7 +30,7 @@ SortBy              = "default"
 
     [article.license]
         enabled = true
-        default = "版权所有，禁止转载。转发引用需注明文章链接。"
+        default = "Licensed under CC BY-NC-SA 4.0 转发引用烦请注明链接&留言。"
 
 [widgets]
     homepage = [

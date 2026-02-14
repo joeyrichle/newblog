@@ -2,7 +2,7 @@
 title: 瑜伽一年
 description: 零两个月
 slug: yoga-one-year
-date: 2025-11-25
+date: 2025-11-25T19:10:00+09:00
 categories:
 image: 1.jpeg
 tags:

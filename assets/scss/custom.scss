@@ -41,3 +41,7 @@
         width: 100%;
     }
 }
+//取消文章脚注英文全部大写
+.article-copyright span {
+    text-transform: none;
+}

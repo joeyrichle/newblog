@@ -9,11 +9,11 @@ categories:
 
 tags:
     - 建站装修
+    - Hugo
 ---
 
 
-这篇记录一下这个网站的搭建过程。~无他，唯copypaste尔。~
-
+这篇记录一下这个网站的搭建过程。~无他，唯copypaste尔。~  
 之后可能会再写一篇建站前的各种试错阶段，会是碎碎念。
 
 首先当然是注册Hugo和GitHub，此外还有一些隐性学习成本，我也还在摸索，就不多写了，有意的就多搜教程和视频看吧。
@@ -21,9 +21,11 @@ tags:
 ## 使用Hugo-stack-starter在Github搭建博客网站
 
 非常幸运的是，这个主题的作者Jimmy刚好在我建站的前一天更新并上传了一个视频教程。
-按照作者[视频](https://www.youtube.com/watch?v=8qDdQQ6Ifxo)的步骤来，用Hugo-theme-starter做template，在自己的GitHub新建一个repository，基本就是一键到位了。**注意Configuration这里选择public，GitHub非pro账户只有选择public之后才能在pages页面看到github actions的选项。** 
-等codespaces自动把文件都复制到repo，然后修改`config.toml`里的地址和blog名字。
+按照作者[视频](https://www.youtube.com/watch?v=8qDdQQ6Ifxo)的步骤来，用Hugo-theme-starter做template，在自己的GitHub新建一个repository，基本就是一键到位了。  
 
+**注意Configuration这里选择public，GitHub非pro账户只有选择public之后才能在pages页面看到github actions的选项。**   
+
+等codespaces自动把文件都复制到repo，然后修改`config.toml`里的地址和blog名字。  
 自己GitHub名字的博客网站就出来了。
 
 ## Modify
@@ -35,7 +37,7 @@ tags:
 modify大部分是参考友邻白石京的[建站装修相关文章](https://thirdshire.com/hugo-stack-renovation/)，个别细节根据需要和心情（主要是代码一多我就懒得弄）有微调。
 改完后的理解是，layouts是管页面内容设置的，assets是管风格样式的，所以要加东西改东西基本是这两个文件夹。
 
-### 参考白石京文章的部分
+### 参考白石京的部分
 
 - 添加Twikoo评论区
   
@@ -125,8 +127,7 @@ modify大部分是参考友邻白石京的[建站装修相关文章](https://thi
  </div>
  ```
 
-因为删了icon，也就不需要定义icon样式。
-
+因为删了icon，也就不需要定义icon样式。  
 删除assets/scss/partials/widgets.scss中的这部分代码。
 **注意{}的范围**
 ```scss
@@ -145,7 +146,7 @@ modify大部分是参考友邻白石京的[建站装修相关文章](https://thi
 
 ## 配置自定义域名（custom domain）
 
-配置域名我是看的这个[视频](https://www.youtube.com/watch?v=_QSr2_pxIJs)的最后部分。
+配置域名我是看的这个[视频](https://www.youtube.com/watch?v=_QSr2_pxIJs)的最后部分。  
 前面也是教如何deploy Hugo 到GitHub pages的，用的是papermud的主题建到本地。讲得很仔细到位，里面有很多基础知识，包括Hugo怎么装都提到了，非常有收获。他动作很快，很多细节一闪而过，我之前反反复复看了好多遍。
 
 ### 买域名
