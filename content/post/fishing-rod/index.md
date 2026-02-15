@@ -3,7 +3,7 @@ title: 鱼竿
 description: 远离那些无视你的人
 slug: fishing-rod
 date: 2025-11-25T09:10:00+09:00
-image: 
+image: a.jpeg
 categories: 
 
 tags:
