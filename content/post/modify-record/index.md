@@ -2,7 +2,7 @@
 title: Hugo装修小记
 description: 
 slug: modify-record
-date: 2026-02-13
+date: 2026-02-13T09:00:00+09:00
 image: 
 categories: 
 
