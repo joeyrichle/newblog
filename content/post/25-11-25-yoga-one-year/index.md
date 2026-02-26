@@ -11,7 +11,7 @@ tags:
     - self-care
 ---
 
-之前写了[瑜伽六个月]({{< relref "yoga-six-months/#heading" >}})，现在一转眼已经一年零两个月了！（至少）
+之前写了[瑜伽六个月]({{< relref "25-4-12-yoga-six-months/#heading" >}})，现在一转眼已经一年零两个月了！（至少）
 
 说说这后半年的情况。
 

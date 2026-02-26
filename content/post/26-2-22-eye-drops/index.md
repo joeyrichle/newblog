@@ -1,6 +1,6 @@
 ---
-title: 干眼症相关和日本眼药水分享
-description: 加个定语：无限近似处方药的市售眼药水
+title: 干眼症相关和日本眼药水*分享
+description: 注释：无限近似干眼症处方药的市售眼药水
 date: 2026-02-26
 slug: eye-drops
 categories: 
