@@ -9,6 +9,7 @@ categories:
 
 tags: 
     - self-care
+    - 陈年旧事
 ---
 
 >寫一個你曾經瘋狂收集、囤積或投入的事物。  
