@@ -4,7 +4,6 @@ description: 有坑也有赚，还挺意外
 slug: sell-second-hand-in-japan
 date: 2026-02-17
 lastmod: 2026-02-18
-image: 7.jpg
 categories:
 
 tags:

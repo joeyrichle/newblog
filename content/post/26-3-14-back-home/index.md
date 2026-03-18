@@ -2,7 +2,7 @@
 title: 人间观察｜回老家一周感受
 description: 
 slug: back-home
-date: 2026-03-14
+date: 2026-03-18
 categories:
     - human-observation
 tags:
