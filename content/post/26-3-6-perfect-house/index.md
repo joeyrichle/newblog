@@ -3,6 +3,7 @@ title: 称心如意
 description: 的房子
 date: 2026-03-10
 slug: perfect-house
+image: 14.JPG
 categories:
 
 tags:
