@@ -41,16 +41,16 @@
         {{ end }}
 
         {{ if $showReadingTime }}
-            <div style="display: flex; align-items: center; gap: 0.7rem;">
+            <div style="gap: 0.7rem;">
                 {{ partial "helper/icon" "clock" }}
-                <span class="article-time--reading">
+                <time class="article-time--reading">
                     {{- if ge .WordCount 1000 -}}
-                        About {{ printf "%.2fK" (div .WordCount 1000.0) }} words
+                        本文总计约 {{ printf "%.2fK" (div .WordCount 1000.0) }}字
                     {{- else -}}
-                        About {{ .WordCount }} word
+                        本文总计约 {{ .WordCount }} 字
                         {{- end -}}, 
                     {{ T "article.readingTime" .ReadingTime }}
-                </span>
+                </time>
             </div>
          {{ end }}
     </footer>

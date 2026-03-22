@@ -82,40 +82,45 @@ layouts\partials\article\components\details.html里找到 footer class="article-
 ```
 
 同时要把stack主题的i18n文件夹加到主目录下，我的默认语言是英语，所以只复制了en.toml，如果是中文就复制zh.toml。
+**注：网上搜的文章里有说要加wordcount语句，但本地看了下不加也正常显示，所以我又删掉了。这里只是留个当作备忘提醒，可能有需要的。**
 在`[article.readingTime]`下面加入字句。
 ```toml
-[article.readingTime]
-        one   = "{{ .Count }} min read"
-        other = "{{ .Count }} min read"
-//wordcount
     [article.wordCount]
         one   = "{{ .Count }} word"
         other = "{{ .Count }} words"
 ```
 理论上不会有一个字的文章，所以只写other这句就可以。  
-如果是中文，可以写 `other = "本文共计{{ .Count }} 字"`
 
 这样出来的效果是 3270words，7 minutes read。我更想看千字统计，所以进一步调整成下面这样⬇，以及调整了图标和字之间的间距。
 
 千字统计的code
 ```html
  {{ if $showReadingTime }}
-//缩小图标和文字之间的空隙，具体调整gap后的数字 
-    <div style="display: flex; align-items: center; gap: 0.7rem;">
+//缩小图标和字的空隙 
+    <div style="gap: 0.7rem;">
         {{ partial "helper/icon" "clock" }}
-         <span class="article-time--reading">
-        //千字统计部分代码   
+        <time class="article-time--reading">
+        
+        <!-- 在此开始插入 -->
             {{- if ge .WordCount 1000 -}}
-                About {{ printf "%.2fK" (div .WordCount 1000.0) }} words
+                本文总计约 {{ printf "%.2fK" (div .WordCount 1000.0) }}字
             {{- else -}}
-                About {{ .WordCount }} word
-             {{- end -}}, 
-        <!-- 在此结束 -->        
+                本文总计约 {{ .WordCount }} 字
+                {{- end -}}, 
+        <!-- 在此结束 -->   
+            
             {{ T "article.readingTime" .ReadingTime }}
-        </span>
+         </time>         
     </div>
 {{ end }}
 ```
 
-注意⚠️ 这里我没有动en.toml里的句子，而是把文字About和word加在了detail里。推荐hugo server多运行几次看效果。有时需要ctrl+c关掉重新运行，电脑也需要nap。显示效果如下：
+注意⚠️ 这里我把文字加在了detail里，试了下英文感觉不好看，最后还是改成了中文，阅读时间也调整成中文，具体是改en.toml。
+```toml
+[article.readingTime]
+    one   = "阅读约需 {{ .Count }} 分钟"
+    other = "阅读约需 {{ .Count }} 分钟"
+```
+
+推荐hugo server多运行几次看效果。有时需要ctrl+c关掉重新运行，电脑也需要nap。显示效果如下：
 ![](53.png)

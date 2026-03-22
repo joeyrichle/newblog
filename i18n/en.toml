@@ -19,12 +19,8 @@ darkMode   = "Dark Mode"
     lastUpdatedOn   = "Last updated on"
 
     [article.readingTime]
-        one   = "{{ .Count }} min read"
-        other = "{{ .Count }} min read"
-
-    [article.wordCount]
-        one   = "{{ .Count }} word"
-        other = "{{ .Count }} words"
+        one   = "阅读约需 {{ .Count }} 分钟"
+        other = "阅读约需 {{ .Count }} 分钟"
 
     [article.alert]
         note      = "Note"
