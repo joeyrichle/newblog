@@ -36,7 +36,7 @@
     line-height: 1.5;
 }
 //修复左侧边栏宽度
-@media (min-width: 768px) {
+@media (min-width: 748px) {
     .sidebar.sticky {
         width: 100%;
     }
@@ -44,4 +44,9 @@
 //取消文章脚注英文全部大写
 .article-copyright span {
     text-transform: none;
+}
+//修改标题字号大小
+.article-page .main-article .article-header .article-title {
+    font-size: 2.5rem; /* Adjust this number to go even bigger */
+    margin-bottom: 1.5rem; /* Adds some breathing room below the title */
 }
