@@ -10,10 +10,11 @@ tags:
 
 <img src="67.JPG" alt="2022年我猫" style="width: 400px; display: block; margin: 0 auto;">
 
-看到博友[椒盐豆豉](https://blog.douchi.space/things-im-not-doing-anymore/#gsc.tab=0)和[Allison](https://thewanderingallison.vercel.app/posts/things-i-dont-want-to-do/?utm_source=blog.douchi.space)写的文，也来凑热闹写一点。
+看到友邻[椒盐豆豉](https://blog.douchi.space/things-im-not-doing-anymore/#gsc.tab=0)和[Allison](https://thewanderingallison.vercel.app/posts/things-i-dont-want-to-do/?utm_source=blog.douchi.space)写的文，也来凑热闹写一点。
+
 
 · 不再因“便宜”“打折”而买  
-· 不买奢侈品，大牌护肤品。simply no interest  
+· 不买奢侈品，大牌护肤品。simply not interested.  
 · 不再想要学会化妆。女人为什么非要会化妆？   <font color=gray size=3>男人会吗？</font>   
 · 不再以世间的“美德”要求自己，诸如坚持、谦虚、认真。三分钟热情就有三分钟的收获  
 · 不再试图“融入”某一社群、团体、国家、文化  
