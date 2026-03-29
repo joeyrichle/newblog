@@ -50,3 +50,18 @@
     font-size: 2.5rem; /* Adjust this number to go even bigger */
     margin-bottom: 1.5rem; /* Adds some breathing room below the title */
 }
+//add number at tags
+.tagCloud-tags a {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px; /* Space between text and number */
+    margin-bottom: 8px;
+    font-size: 1.4rem; /* Making the tag itself a bit bigger */
+}
+
+.tag-count {
+    font-size: 1.2rem; /* Smaller than the tag text */
+    color: var(--card-text-color-secondary); /* Matches theme's subtle text color */
+    opacity: 0.6;
+    font-weight: normal;
+}
