@@ -22,6 +22,13 @@ links:
     description: A place to empty and refill my mind.
     website: https://pensieve.wangxindi.org/
     image: https://pensieve.wangxindi.org/img/avatar.png
+  
+  - title: HI, I AM PAOLO
+    description: Photographer | Software Engineer
+    website: https://paolomaschio.com
+    image: https://images.squarespace-cdn.com/content/v1/60296f1d94325c1cfe93d7c5/1613429150935-6MGLTP205Q0DUXZA84V8/android-chrome-512x512.png
+    
+
 menu:
     main: 
         weight: 4
