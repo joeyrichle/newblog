@@ -2,6 +2,7 @@
 title: 称心如意
 description: 的房子
 date: 2026-03-10
+image: 14.jpg
 slug: perfect-house
 categories:
 

@@ -3,13 +3,12 @@ title: 人间观察｜回老家一周感受
 description: 
 slug: back-home
 date: 2026-03-18
+image: 105.jpeg
 categories:
     - human-observation
 tags:
     - 家庭
 ---
-
-![](105.jpeg)
 
 2月底，临时拍板决定回家待一周，说走就走，搜了一圈立马买票。于是隔了5年多第一次回老家&回国。
 

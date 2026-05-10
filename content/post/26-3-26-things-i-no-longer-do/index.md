@@ -1,14 +1,13 @@
 ---
 title: 我不（再）做的事
 date: 2026-03-26
+image: 8.jpeg
 slug: things-i-no-longer-do
 categories:
 
 tags:
     - 随机掉落
 ---
-
-<img src="67.JPG" alt="2022年我猫" style="width: 400px; display: block; margin: 0 auto;">
 
 看到友邻[椒盐豆豉](https://blog.douchi.space/things-im-not-doing-anymore/#gsc.tab=0)和[Allison](https://thewanderingallison.vercel.app/posts/things-i-dont-want-to-do/?utm_source=blog.douchi.space)写的文，也来凑热闹写一点。
 
@@ -33,3 +32,5 @@ tags:
 · 不再买优衣库heattech。  <font color=gray size=3>又不暖，还容易异味，季抛。纯快消垃圾。美利奴不香吗。</font>  
 · 不入日籍，不申永住。不值。  <font color=gray size=3>护照好用的不只有日本，英国新加坡更好用。为什么要吊死在这棵树上</font>  
 · 不再逼自己走路速度要快。其他人走得快，我就也要走得快吗。按自己的节奏来，慢慢走，我总能到达目的地。
+
+![2022年我猫](67.JPG)

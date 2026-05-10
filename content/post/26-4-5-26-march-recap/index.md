@@ -3,12 +3,11 @@ title: 3月小结
 date: 2026-04-05
 slug: 26-march-recap
 categories:
-
+image: 7.jpg
 tags:
     - 月记
     - 在日本
 ---
-![阳台的小蜜蜂](7.JPG)  
 
 回想一下3月过的很“充实”
 

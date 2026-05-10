@@ -3,6 +3,7 @@ title: 从更新签证的吐槽说起
 description: 日本签证——一场大型服从性测试
 slug: renew-visa
 date: 2026-03-20
+image: 01.png
 categories:
     - anothervoice
 tags:

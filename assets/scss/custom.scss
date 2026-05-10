@@ -65,3 +65,8 @@
     opacity: 0.6;
     font-weight: normal;
 }
+
+//match the width of image to the text
+.article-content p.no-text {
+    overflow: hidden;
+}
