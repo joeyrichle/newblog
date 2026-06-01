@@ -1,13 +1,14 @@
 ---
 title: 五一北陆租车4天游
 description: My first car camping
-slug: 
+slug: my-first-car-camping
 date: 2026-05-16
 categories:
     - travel
 tags:
     - 
 ---
+还没写完，写完会删改。不知道怎么隐藏，索性就这么放出来了233
 
 # 缘起&Decision
 
