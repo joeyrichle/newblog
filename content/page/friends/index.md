@@ -15,7 +15,7 @@ links:
 
   - title: The Wandering Allison
     description: 这世界也不是我的地头 就当我在宇宙漂流
-    website: https://thewanderingallison.vercel.app/
+    website: https://blog.wanderingmargins.fyi
     image: https://thewanderingallison.vercel.app/images/avatar.webp/
 
   - title: 邓布利多的冥想盆
