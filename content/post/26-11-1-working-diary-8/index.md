@@ -1,6 +1,6 @@
 ---
 title: 打工记（八）
-description: 无聊透顶
+description: 百无聊赖
 slug: working-diary-8
 date: 2026-11-01
 categories:
