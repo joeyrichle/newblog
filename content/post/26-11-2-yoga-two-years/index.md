@@ -1,6 +1,6 @@
 ---
 title: 瑜伽两年
-description: 与自己和解
+description: 放过自己
 slug: yoga-two-years
 date: 2026-11-02T21:10:00+09:00
 categories:
@@ -27,17 +27,17 @@ tags:
 一时中断也不是什么耻辱。不需要懊悔和自责。什么都可能发生，没时间，没力气，都可能。  
 如果把中断看做一种失败，在心里把自己打倒，只会徒增再开始的难度。中断一两天，甚至周、月，没关系，当我有时间、有心情做的时候，开始便是。而我开始又做了一次的时候，我就是最棒的。
 
-Charlie去年的有封信写得特别好：  
-You’ll miss a day. Or two. Or seven.
-
-Life happens. You get sick. You travel. You’re human.
-
-But what *doesn’t*  help?  
-Beating yourself up.
-
-The most powerful shift I ever made?  
-👉 I stopped seeing missed days as “failures.”  
-And started seeing coming back as a win.  
-
-💡Today’s mindset shift:  
-Skip the guilt. Celebrate the return. 
+Charlie去年有封信写得特别好：  
+>You’ll miss a day. Or two. Or seven.
+>
+>Life happens. You get sick. You travel. You’re human.
+>
+>But what *doesn’t*  help?  
+>Beating yourself up.
+>
+>The most powerful shift I ever made?  
+>👉 I stopped seeing missed days as “failures.”  
+>And started seeing coming back as a win.  
+>
+>💡Today’s mindset shift:  
+>Skip the guilt. Celebrate the return. 
